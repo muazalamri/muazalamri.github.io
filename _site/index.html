@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUAZ AL AMRI | Embedded Systems Engineer</title>
+    <meta name="description" content="Engineering Intelligence into Every Circuit">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="/assets/css/main.css">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+</head>
+<body>
+    <div id="loader" class="loader">
+    <div class="loader-pcb-bg"></div>
+    <div class="loader-content">
+        <div class="loader-logo">
+            <svg viewBox="0 0 200 200" class="circuit-logo">
+                <defs>
+                    <filter id="glow">
+                        <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+                        <feMerge>
+                            <feMergeNode in="coloredBlur"/>
+                            <feMergeNode in="SourceGraphic"/>
+                        </feMerge>
+                    </filter>
+                </defs>
+                <circle cx="100" cy="100" r="60" stroke="#00FF99" stroke-width="3" fill="none" filter="url(#glow)" class="logo-circle"/>
+                <text x="100" y="115" font-family="Orbitron, sans-serif" font-size="48" font-weight="900" fill="#00FF99" text-anchor="middle" filter="url(#glow)">MAA</text>
+            </svg>
+        </div>
+        
+        <div class="loader-text">SYSTEM INITIALIZATION</div>
+        
+        <div class="progress-container">
+            <div class="progress-bar">
+                <div class="progress-fill"></div>
+            </div>
+            <div class="progress-text">0%</div>
+        </div>
+        
+        <div class="loader-status">Booting embedded circuit...</div>
+    </div>
+</div>
+
+    <nav class="navbar">
+    <div class="navbar-brand">
+        <span class="nav-logo">M.A.A</span>
+    </div>
+    <div class="navbar-cta">
+        <a href="#projects" class="btn-glow btn-primary">See My Projects ⚡</a>
+        <a href="https://linkedin.com/in/muazalamri" target="_blank" class="btn-glow btn-secondary">Hire Me 🔗</a>
+    </div>
+</nav>
+
+<div class="floating-cta">
+    <a href="#projects" class="btn-glow btn-primary">See My Projects ⚡</a>
+    <a href="https://linkedin.com/in/muazalamri" target="_blank" class="btn-glow btn-secondary">Hire Me 🔗</a>
+</div>
+
+    
+    <main class="site-content">
+        <div class="page-home">
+    <section id="hero" class="hero-section">
+    <div class="hero-background">
+        <div class="pcb-pattern"></div>
+        <div class="circuit-traces"></div>
+    </div>
+    
+    <div class="hero-content">
+        <h1 class="hero-title">
+            <span class="laser-etched">MUAZ AL AMRI</span>
+        </h1>
+        <p class="hero-tagline">Engineering Intelligence into Every Circuit.</p>
+        
+        <div class="hero-cta">
+            <a href="#projects" class="btn-glow btn-hero-primary">See My Projects ⚡</a>
+            <a href="https://linkedin.com/in/muazalamri" target="_blank" class="btn-glow btn-hero-secondary">Hire Me 🔗</a>
+        </div>
+    </div>
+    
+    <div class="scroll-indicator">
+        <div class="scroll-line"></div>
+    </div>
+</section>
+
+    <section id="projects" class="projects-section">
+    <div class="section-header">
+        <h2 class="section-title">MODULES OF PERFORMANCE</h2>
+        <div class="pcb-divider"></div>
+    </div>
+    
+    <div class="projects-grid">
+        
+        <div class="project-card">
+            <div class="card-circuit-bg"></div>
+            <div class="card-content">
+                <h3 class="project-title">EmbeddedTorch Framework</h3>
+                <p class="project-description">Custom PyTorch-to-C++ compiler for deploying neural networks on microcontrollers with <1MB RAM.</p>
+                <div class="project-tags">
+                    
+                    <span class="tag">PyTorch</span>
+                    
+                    <span class="tag">C++</span>
+                    
+                    <span class="tag">ARDUINO</span>
+                    
+                    <span class="tag">EIGEN</span>
+                    
+                </div>
+                <div class="project-links">
+                    
+                    <a href="https://github.com/muazalamri/embeddedtorch" class="btn-card" target="_blank">View Code</a>
+                    
+                    
+                    <a href="https://wokwi.com/projects/embedded-ml" class="btn-card" target="_blank">open docs</a>
+                    
+                </div>
+            </div>
+            <div class="card-glow"></div>
+        </div>
+        
+        <div class="project-card">
+            <div class="card-circuit-bg"></div>
+            <div class="card-content">
+                <h3 class="project-title">AI-Powered Drone Navigation</h3>
+                <p class="project-description">Autonomous quadcopter with neural network-based flight control and real-time obstacle avoidance.</p>
+                <div class="project-tags">
+                    
+                    <span class="tag">Deep Learning</span>
+                    
+                    <span class="tag">Flight Control</span>
+                    
+                    <span class="tag">Computer Vision</span>
+                    
+                    <span class="tag">Embedded AI</span>
+                    
+                </div>
+                <div class="project-links">
+                    
+                    <a href="https://github.com/muazalamri/neural-drone" class="btn-card" target="_blank">View Code</a>
+                    
+                    
+                    <a href="https://wokwi.com/projects/neural-drone" class="btn-card" target="_blank">watch in youtube</a>
+                    
+                </div>
+            </div>
+            <div class="card-glow"></div>
+        </div>
+        
+        <div class="project-card">
+            <div class="card-circuit-bg"></div>
+            <div class="card-content">
+                <h3 class="project-title">Autonomous Navigation Robot</h3>
+                <p class="project-description">A vision-powered robot using OpenCV and deep learning for real-time obstacle detection and path planning.</p>
+                <div class="project-tags">
+                    
+                    <span class="tag">Computer Vision</span>
+                    
+                    <span class="tag">PyTorch</span>
+                    
+                    <span class="tag">ROS</span>
+                    
+                    <span class="tag">Raspberry Pi</span>
+                    
+                </div>
+                <div class="project-links">
+                    
+                    <a href="https://github.com/muazalamri/autonomous-robot" class="btn-card" target="_blank">View Code</a>
+                    
+                    
+                    <a href="https://wokwi.com/projects/autonomous-nav" class="btn-card" target="_blank">watch in youtube</a>
+                    
+                </div>
+            </div>
+            <div class="card-glow"></div>
+        </div>
+        
+        <div class="project-card">
+            <div class="card-circuit-bg"></div>
+            <div class="card-content">
+                <h3 class="project-title">PyHDL - Python Hardware Description</h3>
+                <p class="project-description">Python-based hardware description language for FPGA development with built-in synthesis and simulation.</p>
+                <div class="project-tags">
+                    
+                    <span class="tag">FPGA</span>
+                    
+                    <span class="tag">Verilog</span>
+                    
+                    <span class="tag">Python</span>
+                    
+                    <span class="tag">Digital Design</span>
+                    
+                </div>
+                <div class="project-links">
+                    
+                    <a href="https://github.com/muazalamri/pyhdl" class="btn-card" target="_blank">View Code</a>
+                    
+                    
+                    <a href="https://github.com/muazalamri/pyhdl" class="btn-card" target="_blank">open docs</a>
+                    
+                </div>
+            </div>
+            <div class="card-glow"></div>
+        </div>
+        
+        <div class="project-card">
+            <div class="card-circuit-bg"></div>
+            <div class="card-content">
+                <h3 class="project-title">Precision Robotics Arm</h3>
+                <p class="project-description">6-DOF robotic arm with inverse kinematics and real-time vision feedback for pick-and-place operations.</p>
+                <div class="project-tags">
+                    
+                    <span class="tag">Inverse Kinematics</span>
+                    
+                    <span class="tag">OpenCV</span>
+                    
+                    <span class="tag">Arduino</span>
+                    
+                    <span class="tag">Servo Control</span>
+                    
+                </div>
+                <div class="project-links">
+                    
+                    <a href="https://github.com/muazalamri/robotics-arm" class="btn-card" target="_blank">View Code</a>
+                    
+                    
+                    <a href="https://wokwi.com/projects/robotics-arm" class="btn-card" target="_blank">watch in youtube</a>
+                    
+                </div>
+            </div>
+            <div class="card-glow"></div>
+        </div>
+        
+        <div class="project-card">
+            <div class="card-circuit-bg"></div>
+            <div class="card-content">
+                <h3 class="project-title">Industrial IoT Monitoring System</h3>
+                <p class="project-description">Real-time sensor network with edge computing for predictive maintenance in manufacturing environments.</p>
+                <div class="project-tags">
+                    
+                    <span class="tag">FreeRTOS</span>
+                    
+                    <span class="tag">MQTT</span>
+                    
+                    <span class="tag">Edge AI</span>
+                    
+                    <span class="tag">LoRaWAN</span>
+                    
+                </div>
+                <div class="project-links">
+                    
+                    <a href="https://github.com/muazalamri/industrial-iot" class="btn-card" target="_blank">View Code</a>
+                    
+                    
+                    <a href="https://wokwi.com/projects/smart-iot" class="btn-card" target="_blank">watch in youtube</a>
+                    
+                </div>
+            </div>
+            <div class="card-glow"></div>
+        </div>
+        
+    </div>
+</section>
+
+    <section id="tools" class="tools-section">
+    <div class="section-header">
+        <h2 class="section-title">TECHNOLOGY STACK</h2>
+        <div class="pcb-divider"></div>
+    </div>
+    
+    <div class="tools-container">
+        <div class="tools-column">
+            <h3 class="tools-subtitle">Tools I Use</h3>
+            <div class="tools-grid">
+                <div class="tool-item" data-tool="Arduino">
+                    <div class="tool-icon">
+                        <svg viewBox="0 0 50 50" class="led-icon">
+                            <circle cx="25" cy="25" r="20" />
+                        </svg>
+                    </div>
+                    <span class="tool-name">Arduino</span>
+                </div>
+                <div class="tool-item" data-tool="ESP32">
+                    <div class="tool-icon">
+                        <svg viewBox="0 0 50 50" class="led-icon">
+                            <circle cx="25" cy="25" r="20" />
+                        </svg>
+                    </div>
+                    <span class="tool-name">ESP32</span>
+                </div>
+                <div class="tool-item" data-tool="Raspberry Pi">
+                    <div class="tool-icon">
+                        <svg viewBox="0 0 50 50" class="led-icon">
+                            <circle cx="25" cy="25" r="20" />
+                        </svg>
+                    </div>
+                    <span class="tool-name">Raspberry Pi</span>
+                </div>
+                <div class="tool-item" data-tool="FreeRTOS">
+                    <div class="tool-icon">
+                        <svg viewBox="0 0 50 50" class="led-icon">
+                            <circle cx="25" cy="25" r="20" />
+                        </svg>
+                    </div>
+                    <span class="tool-name">FreeRTOS</span>
+                </div>
+                <div class="tool-item" data-tool="Linux">
+                    <div class="tool-icon">
+                        <svg viewBox="0 0 50 50" class="led-icon">
+                            <circle cx="25" cy="25" r="20" />
+                        </svg>
+                    </div>
+                    <span class="tool-name">Linux</span>
+                </div>
+                <div class="tool-item" data-tool="OpenCV">
+                    <div class="tool-icon">
+                        <svg viewBox="0 0 50 50" class="led-icon">
+                            <circle cx="25" cy="25" r="20" />
+                        </svg>
+                    </div>
+                    <span class="tool-name">OpenCV</span>
+                </div>
+                <div class="tool-item" data-tool="PyTorch">
+                    <div class="tool-icon">
+                        <svg viewBox="0 0 50 50" class="led-icon">
+                            <circle cx="25" cy="25" r="20" />
+                        </svg>
+                    </div>
+                    <span class="tool-name">PyTorch</span>
+                </div>
+                <div class="tool-item" data-tool="TensorFlow">
+                    <div class="tool-icon">
+                        <svg viewBox="0 0 50 50" class="led-icon">
+                            <circle cx="25" cy="25" r="20" />
+                        </svg>
+                    </div>
+                    <span class="tool-name">TensorFlow</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="tools-column">
+            <h3 class="tools-subtitle">Tools I Build</h3>
+            <div class="custom-tools">
+                <div class="custom-tool-item">
+                    <div class="custom-tool-icon">
+                        <svg viewBox="0 0 100 100" class="rotating-circuit">
+                            <rect x="30" y="30" width="40" height="40" fill="none" stroke="#00FF99" stroke-width="2"/>
+                            <circle cx="50" cy="50" r="15" fill="none" stroke="#00FF99" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h4 class="custom-tool-name">embeddedtorch</h4>
+                    <p class="custom-tool-desc">Where hardware meets intelligence.</p>
+                </div>
+                <div class="custom-tool-item">
+                    <div class="custom-tool-icon">
+                        <svg viewBox="0 0 100 100" class="rotating-circuit">
+                            <polygon points="50,20 80,80 20,80" fill="none" stroke="#00FF99" stroke-width="2"/>
+                            <circle cx="50" cy="60" r="10" fill="none" stroke="#00FF99" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h4 class="custom-tool-name">pyhdl</h4>
+                    <p class="custom-tool-desc">Python meets hardware description.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section id="contact" class="contact-section">
+    <div class="contact-background"></div>
+    <div class="contact-content">
+        <h2 class="contact-title">Let's Build the Next Intelligent System.</h2>
+        <div class="contact-buttons">
+            <a href="mailto:muaz@example.com" class="btn-heartbeat">📩 Contact Me</a>
+            <a href="https://linkedin.com/in/muazalamri" target="_blank" class="btn-heartbeat">💼 LinkedIn</a>
+            <a href="https://github.com/muaz-alamri" target="_blank" class="btn-heartbeat">🌐 GitHub</a>
+        </div>
+    </div>
+</section>
+
+</div>
+
+    </main>
+    
+    <footer class="site-footer">
+    <div class="footer-content">
+        <div class="footer-status">
+            <span class="status-led"></span>
+            <span class="status-text">SYSTEM ONLINE</span>
+        </div>
+        <div class="footer-copyright">
+            <p>&copy; 2025 Muaz Al Amri. Engineered with precision.</p>
+        </div>
+    </div>
+</footer>
+
+    
+    <script src="/assets/js/main.js"></script>
+</body>
+</html>

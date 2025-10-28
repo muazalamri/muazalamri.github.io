@@ -1,0 +1,31 @@
+<div id="loader" class="loader">
+    <div class="loader-pcb-bg"></div>
+    <div class="loader-content">
+        <div class="loader-logo">
+            <svg viewBox="0 0 200 200" class="circuit-logo">
+                <defs>
+                    <filter id="glow">
+                        <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+                        <feMerge>
+                            <feMergeNode in="coloredBlur"/>
+                            <feMergeNode in="SourceGraphic"/>
+                        </feMerge>
+                    </filter>
+                </defs>
+                <circle cx="100" cy="100" r="60" stroke="{{ site.colors.neon_green }}" stroke-width="3" fill="none" filter="url(#glow)" class="logo-circle"/>
+                <text x="100" y="115" font-family="Orbitron, sans-serif" font-size="48" font-weight="900" fill="{{ site.colors.neon_green }}" text-anchor="middle" filter="url(#glow)">MAA</text>
+            </svg>
+        </div>
+        
+        <div class="loader-text">SYSTEM INITIALIZATION</div>
+        
+        <div class="progress-container">
+            <div class="progress-bar">
+                <div class="progress-fill"></div>
+            </div>
+            <div class="progress-text">0%</div>
+        </div>
+        
+        <div class="loader-status">Booting embedded circuit...</div>
+    </div>
+</div>
