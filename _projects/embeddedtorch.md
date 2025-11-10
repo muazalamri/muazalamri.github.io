@@ -1,10 +1,22 @@
 ---
+
 title: EmbeddedTorch Framework
-description: Custom PyTorch-to-C++ compiler for deploying neural networks on microcontrollers with <1MB RAM.
-tags: [PyTorch, C++, ARDUINO, EIGEN]
+description: PyTorch-to-C++ inference compiler enabling neural network deployment on microcontrollers with <1MB RAM and no OS.
+tags: [PyTorch, C++, Edge AI, Arduino, ESP32, Eigen]
 github: https://github.com/muazalamri/embeddedtorch
 demo: https://wokwi.com/projects/embedded-ml
-cta: open docs
+cta: View Documentation
+
+
 ---
 
-Developed a custom framework that compiles PyTorch models into optimized C++ code for resource-constrained embedded systems. Achieves 10x performance improvement over standard TensorFlow Lite on ESP32 platforms.
+Built a lightweight PyTorch-to-C++ compiler and runtime for ultra-low-power microcontrollers.
+Converts trained PyTorch models into optimized static C++ inference code using Eigen, eliminating Python and dynamic memory overhead.
+
+✅ <1MB RAM support (ESP32, STM32, AVR)
+✅ 10× latency improvement vs TensorFlow Lite Micro on ESP32 benchmarks
+✅ No operating system, no dynamic allocation — ideal for deterministic real-time IoT/robotics
+✅ Fully simulation-ready on Wokwi
+
+
+---

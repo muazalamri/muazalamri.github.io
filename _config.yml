@@ -18,8 +18,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+<<<<<<< HEAD
 title: MUAZ AL AMRI | Embedded Systems & ROBOTICS Engineer
 email: eng.muazalamri@gmail.com
+=======
+title: MUAZ AL AMRI | Embedded Systems Engineer
+email: muazalamri@gmail.com
+>>>>>>> 1875a09d54edda7e47260d061b6b250da5159b5a
 description: >-
   Engineering Intelligence into Every Circuit. An embedded systems portfolio
   showcasing robotics, AI, and hardware-software integration projects.
